@@ -1,0 +1,15 @@
+// lines prefixed with double slashes count as commentary.
+// the following test will just load a file during the setup phase
+// and make it available in the test context. Read the documentation
+// to know more about scripting. 
+
+
+SETUP :
+
+LOAD params/xmlDataset2.xml AS placeHolderDataset.file
+
+CONVERT placeHolderDataset.file TO file(param) USING context_script_params AS processedPlaceHolderDataset.file
+
+TEST :
+
+VERIFY processedPlaceHolderDataset.file DOES contain WITH $(value1="success")

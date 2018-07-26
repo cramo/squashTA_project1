@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <test ${TC_CUF_prop1}="test case"/>
+  <test ${CPG_CUF_prop1}="campagne"/>
+  <test ${IT_CUF_prop1}="iteration"/>
+  <test ${TS_CUF_prop1}="test suite"/>
+</dataset>
