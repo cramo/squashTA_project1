@@ -12,7 +12,7 @@
 	<!-- Properties definition -->
 	<properties>
         <!-- Squash-TA framework version used by the project -->
-		<ta.framework.version>1.11.0-SNAPSHOT</ta.framework.version>
+		<ta.framework.version>1.9.0-RELEASE</ta.framework.version>
         <!-- Log configuration file -->
         <logConfFile>src/log4j.properties</logConfFile>
 <!--         <ta.debug.mode>true</ta.debug.mode>  -->
